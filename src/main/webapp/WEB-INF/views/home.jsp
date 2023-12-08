@@ -9,7 +9,7 @@
 <body>
 
 <h1>Hello! 안녕!</h1>
-<P> <a href="board/list">게시판으로 이동</a></P>
+<P> <a href="login/login">로그인 페이지로 이동</a></P>
 
 </body>
 </html>

@@ -9,7 +9,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
-    <title>Edit Form</title>
+    <title>친구 수정</title>
 </head>
 <body>
 <h1>Edit Form</h1>
@@ -17,9 +17,9 @@
     <input type="hidden" name="seq" value="${u.seq}" />
     <table id="edit">
         <tr><td>카테고리</td><td><input type="text" name="category" value="${u.category}" /></td></tr>
-        <tr><td>제목</td><td><input type="text" name="title" value="${u.title}" /></td></tr>
-        <tr><td>글쓴이</td><td><input type="text" name="writer" value="${u.writer}" /></td></tr>
-        <tr><td>내용</td><td><textarea cols="50" rows="5" name="content">${u.content}</textarea></td></tr>
+        <tr><td>이름</td><td><input type="text" name="name" value="${u.name}" /></td></tr>
+        <tr><td>전화번호</td><td><input type="text" name="phoneNumber" value="${u.phoneNumber}" /></td></tr>
+        <tr><td>이메일</td><td><textarea cols="50" rows="5" name="email">${u.email}</textarea></td></tr>
     </table>
     <input type="submit" value="수정하기" />
     <input type="button" value="취소하기" onclick="history.back()" />
