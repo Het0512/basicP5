@@ -53,7 +53,7 @@
         <tr>
             <td>${u.seq}</td>
             <td>${u.category}</td>
-            <td>${u.name}</td>
+            <td><a href="postform/${u.seq}">${u.name}</a></td>
             <td>${u.phoneNumber}</td>
             <td>${u.email}</td>
             <td>${u.regdate}</td>

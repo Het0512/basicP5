@@ -40,6 +40,13 @@ public class MemberController {
         return "editform";
     }
 
+    @RequestMapping(value="/postform/{id}", method = RequestMethod.GET)
+    public String postPost(@PathVariable("id") int id, Model model) {
+        MemberVO memberVO = memberService.getMember(id);
+        model.addAttribute("u", memberVO);
+        return "postform";
+    }
+
     @RequestMapping(value="/editok", method = RequestMethod.POST)
     public String editPostOk(MemberVO vo) {
         if(memberService.updateMember(vo) == 0)
