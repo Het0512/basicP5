@@ -18,7 +18,10 @@
     <table id="edit">
         <tr><td>카테고리</td><td><input type="text" name="category" value="${u.category}" /></td></tr>
         <tr><td>이름</td><td><input type="text" name="name" value="${u.name}" /></td></tr>
-        <tr><td>전화번호</td><td><input type="text" name="phoneNumber" value="${u.phoneNumber}" /></td></tr>
+        <tr><td>성별</td><td><input type="text" name="gender" value="${u.gender}" /></td></tr>
+        <tr><td>생년월일</td><td><input type="date" name="birthDate" value="${u.birthDate}" /></td></tr>
+        <tr><td>나이</td><td><input type="number" name="age" value="${u.age}" /></td></tr>
+        <tr><td>전화번호</td><td><input type="tel" name="phoneNumber" value="${u.phoneNumber}" /></td></tr>
         <tr><td>이메일</td><td><textarea cols="50" rows="5" name="email">${u.email}</textarea></td></tr>
     </table>
     <input type="submit" value="수정하기" />

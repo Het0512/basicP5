@@ -18,6 +18,8 @@
     <table id="post">
         <tr><td>카테고리 : </td><td>${u.category}</td></tr>
         <tr><td>이름 : </td><td>${u.name}</td></tr>
+        <tr><td>성별 : </td><td>${u.gender}</td></tr>
+        <tr><td>나이(생년월일) : </td><td>${u.age}살 (${u.birthDate})</td></tr>
         <tr><td>전화번호 : </td><td>${u.phoneNumber}</td></tr>
         <tr><td>이메일 : </td><td>${u.email}</td></tr>
     </table>

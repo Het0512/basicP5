@@ -9,6 +9,9 @@ public class MemberVO {
     private String phoneNumber;
     private String email;
     private Date regdate;
+    private String age;
+    private String birthDate;
+    private String gender;
     private int cnt;
 
     public int getSeq() { return seq; }
@@ -44,4 +47,28 @@ public class MemberVO {
     public void setRegdate(Date regdate) { this.regdate = regdate; }
     public int getCnt() { return cnt; }
     public void setCnt(int cnt) { this.cnt = cnt; }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public String getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
 }
